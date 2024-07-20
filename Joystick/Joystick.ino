@@ -48,7 +48,6 @@ void loop() {
     G = 0;
     W = map(LR, LR_neutral, 0, 0, 255);
   }
-
   int clickVal = digitalRead(clickBtn);
 
   if (!clickVal) {
